@@ -128,7 +128,7 @@ h = 444
 selected_x, selected_y = 0, 0
 
 root = Tk()
-
+root.title('Jogo Colorir projeto Final!')
 image = PhotoImage(file="pa.ppm")
 
 canvas = Canvas(root, background='white', width=w, height=h)
