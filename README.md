@@ -27,11 +27,13 @@ Temas:
 Descreva os objetivos do seu projeto e como ele funciona. 
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+Adicione 3 ou mais screenshots do projeto em funcionamento.<br>
 ![image](https://user-images.githubusercontent.com/50469574/138789485-855d5bba-33e0-4c68-ae68-c4d7db4b0cfc.png)
+<br>
 ![image](https://user-images.githubusercontent.com/50469574/138789836-fcfec1ae-ea36-49ad-b685-9b8276f3f6f5.png)
+<br>
 ![image](https://user-images.githubusercontent.com/50469574/138789961-95a1b455-0c5b-4ff4-ab33-2c998a4919a2.png)
-
+<br>
 ## Instalação 
 **Linguagem**: xxxxxx<br>
 **Framework**: (caso exista)<br>
