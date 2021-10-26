@@ -1,45 +1,41 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# jogo-dinamico-colorir
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Número da Lista**: 27<br>
+**Conteúdo da Disciplina**: Final<br>
 
 ## Alunos
-|Matrícula | Aluno |
-| -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
 
-## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+| Matrícula | Aluno           |
+| --------- | --------------- |
+| 19/0011602 | Christian Fleury Alencar Siqueira |
+| 19/0055294 | Thiago Siqueira Gomes |
+
+## Sobre
+
+O projeto consiste em um jogo de colorir, onde o jogador podera colorir um desenho em preto e branco, utilizando uma função que pinta todo os espaço dentro de um limite fechado
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+Adicione 3 ou mais screenshots do projeto em funcionamento.<br>
+![image](https://user-images.githubusercontent.com/50469574/138789485-855d5bba-33e0-4c68-ae68-c4d7db4b0cfc.png)
+<br>
+![image](https://user-images.githubusercontent.com/50469574/138789836-fcfec1ae-ea36-49ad-b685-9b8276f3f6f5.png)
+<br>
+![image](https://user-images.githubusercontent.com/50469574/138789961-95a1b455-0c5b-4ff4-ab33-2c998a4919a2.png)
+<br>
+## Instalação
 
-## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: Python3<br>
+**Framework**: Tkinter<br>
 
-## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+Primeiramente instale o Python3 no seu computador
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+Depois instale a bibliotéca Tkinter com o seguinte comando: <br>
+``` sudo apt install python3-tk ```
 
+## Uso
 
+Rode dentro da pasta do projeto o seguinte comando: <br>
+``` python3 jogo-de-colorir.py ``` 
 
-
+Após isso, escolha uma cor e clique na região em que deseja pintar
+ 
