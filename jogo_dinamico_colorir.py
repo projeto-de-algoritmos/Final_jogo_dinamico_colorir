@@ -1,7 +1,54 @@
 from tkinter import *
 from collections import deque
 
- 
+sizeHash = 198953
+hashtable = [0] * sizeHash
+
+class Node:
+    def __init__(self, x, y):
+        self.x = x  
+        self.y = y
+  
+def insertHT(x,y):
+  global hashtable
+  s = str(x)+':'+str(y)
+  
+  h = hash(s)
+
+  no = Node(x,y)
+
+  hashtable[h] = no
+
+
+
+
+def hash(s):
+  h = 0
+  a = 31415
+  b = 27183
+
+  array = dynamicPrimes()
+
+  for i in s:
+    a = a * b % (sizeHash - 1);
+    h = (a * h + array[ord(i)-48]) % sizeHash;
+  return h;
+
+def checkIfNot(x,y):
+  global hashtable
+  s = str(x)+','+str(y)
+  
+  h = hash(s)
+
+  if hashtable[h] == 0:
+    return True
+
+
+  if hashtable[h].x == x and hashtable[h].y == y:
+    return False
+  else:
+    return True
+
  
 
 def changeColor(newColor):
