@@ -27,7 +27,8 @@ Adicione 3 ou mais screenshots do projeto em funcionamento.<br>
 **Linguagem**: Python3<br>
 **Framework**: Tkinter<br>
 
-Primeiramente instale o Python3 no seu computador
+Primeiramente instale o Python3 no seu computador através do comando: <br>
+``` sudo apt install python3 ```
 
 Depois instale a bibliotéca Tkinter com o seguinte comando: <br>
 ``` sudo apt install python3-tk ```
